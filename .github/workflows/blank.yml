@@ -25,7 +25,6 @@ jobs:
       env:
           GITHUB_CONTEXT: ${{ toJson(github) }}
       run: |
-       # echo "$GITHUB_CONTEXT"
         echo ${{ github.event.title }}
 
     # Runs a set of commands using the runners shell
