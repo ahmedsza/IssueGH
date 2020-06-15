@@ -32,7 +32,7 @@ jobs:
           github.issues.create({
             owner: context.repo.owner,
             repo: context.repo.repo,
-            title: "${{ env.build_name }} Workflow ${{ github.run_number }} Failed! ",
+            title: "${{ github.run_id }} ",
             body: body
           });
     # Runs a set of commands using the runners shell
