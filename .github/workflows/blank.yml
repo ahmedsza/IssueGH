@@ -25,4 +25,4 @@ jobs:
     - name: Run a multi-line script
       run: |
         echo toJson(github)
-        echo test, and deploy your project.
+        echo github.event.label.name
