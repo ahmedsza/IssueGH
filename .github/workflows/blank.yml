@@ -25,4 +25,4 @@ jobs:
     - name: Run a multi-line script
       run: |
         echo ${{ toJson(github) }}
-        echo  ${{ github.event.created_at }}
+        echo 'hello'
