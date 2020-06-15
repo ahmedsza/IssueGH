@@ -27,7 +27,7 @@ jobs:
         
     - name: Dump title
       run: |
-        echo ${{ github.event.title }}
+        echo ${{ github.event.issue.title }}
         
     - name: Dump GitHub context
       env:
